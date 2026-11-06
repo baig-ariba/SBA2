@@ -7,54 +7,123 @@
     <title>Accessible Design Co.</title>
 </head>
 <body>
-    <nav class="nav-bar">
-        <div class="co-logo">
-            <img src="/images/Company Logo.jpg" alt="Company logo.">
-        </div>
-        <ul id="nav-elements">
-            <li><a href="#nav-bar">Home</a></li>
-            <li><a href="/AboutUs.html">About Us</a></li>
-            <li><a href="/Services.html">Services</a></li>
-            <li><a href="/ContactUs.html">Contact Us</li>
-        </ul> 
-    </nav>
+    <main>
+        <nav class="nav-bar">
+            <div class="co-logo">
+                <img src="/images/Company Logo.jpg" alt="Company logo.">
+            </div>
+            <ul id="nav-elements">
+                <li><a href="#nav-bar" style="text-decoration: none;">Home</a></li>
+                <li><a href="/AboutUs.html" style="text-decoration: none;">About us</a</li>
+                <li><a href="/Services.html" style="text-decoration: none;">Services</a></li>
+                <li><a href="/ContactUs.html" style="text-decoration: none;">Contact Us</a></li>
+            </ul> 
+        </nav>
 
-    <section class="header">    
-        <div class="co-name">
-            <h1>Accessible Design Co.</h1>
-            <button type="button" class="about-us-button"><a href="/AboutUs.html">Know more about us</a></button>
-        </div>
-        <div class="image">
-            <img src="" alt="Image of Company something">
-        </div>
-    </section>
+        <section class="header">    
+            <div class="co-name">
+                <h1>Accessible Design Co.</h1>
+                <h3>Accessibility for All. Possibilities Without Limits.</h3>
+                <button type="button" class="about-us-button"><a href="/AboutUs.html">Know more about us</a></button>
+            </div>
+            <div class="image">
+                <img src="/images/Side image.png" alt="Image of Company Services.">
+            </div>
+        </section>
 
-    <article class="about-info">
-        <div class="about-us">
-            <h3>What we do</h3>
-        </div>
-    </article>
+        <article class="about-info">
+            <div class="about-us">
+                <p>At <b>Accessible Design Co.</b>, we believe the digital world should be a place where everyone can explore, connect, and thrive without barriers. We bring the power of inclusive design and accessible HTML to life, transforming ordinary websites into welcoming digital experiences that work for people of all abilities. With a passion for innovation and a commitment to accessibility, we help businesses create vibrant, user-friendly websites that embrace diversity, meet accessibility standards, and open doors for everyone. Because the web is for everyone, and every user deserves a seamless experience!.</p>
+            </div>
+        </article>
 
-    <section class="services">
-        <div class="">
+        <section class="services">
+            <h3>Services Offered</h3>
+            <div class="offered-services">
+                <button class="icon-text-button">
+                    <img src="/images/Service 1.png" alt="Keyboard navigation icon">
+                    <label>Keyboard Navigation</label>
+                </button>
+                <button class="icon-text-button">
+                    <img src="/images/Service 2.png" alt="Stop animation icon">
+                    <label>Stop animation</label>
+                </button>
+                <button class="icon-text-button">
+                    <img src="/images/Service 3.png" alt="Big Cursor icon">                
+                    <label>Big Cursor</label>
+                </button>
+                <button class="icon-text-button">
+                    <img src="/images/Service 4.png" alt="Uncolor icon">
+                    <label>Uncolor</label>
+                </button>
+                <button class="icon-text-button">
+                    <img src="/images/Service 5.png" alt="Bright contrast icon">
+                    <label>Bright contrast</label>
+                </button>
+                <button class="icon-text-button">
+                    <img src="/images/Service 6.png" alt="Reverse contrast icon">
+                    <label>Reverse contrast</label>
+                </button>
+                <button class="icon-text-button">
+                    <img src="/images/Service 7.png" alt="Readable text icon">
+                    <label>Readable text icon</label>
+                </button>
+                <button class="icon-text-button">
+                    <img src="/images/Service 8.png" alt="Smaller text icon">
+                    <label>Smaller text icon</label>
+                </button>
+                <button class="icon-text-button">
+                    <img src="/images/Service 9.png" alt="Bigger text icon">
+                    <label>Bigger text</label>
+                </button>
+                <button class="icon-text-button">
+                    <img src="/images/Service 10.png" alt="Underline link icon">
+                    <label>Underline links</label>
+                </button>
+                <button class="icon-text-button">
+                    <img src="/images/Service 11.png" alt="Underline headers">
+                    <label>Underline headers</label>
+                </button>
+                <button class="icon-text-button">
+                    <img src="/images/Service 12.png" alt="Images tiles icon">
+                    <label>Images tiles</label>
+                </button>
+                <button class="icon-text-button">
+                    <img src="/images/Service 13.png" alt="Zoom screen icon">
+                    <label>Zoom screen</label>
+                </button>
+                <button class="icon-text-button">
+                    <img src="/images/Service 14.png" alt="Black cursor icon">
+                    <label>Black cursor</label>
+                </button>
+                <button class="icon-text-button">
+                    <img src="/images/Service 15.png" alt="White cursor icon">
+                    <label>White cursor</label>
+                </button>
+            </div>
+        </section>
 
-        </div>
-    </section>
-
-    <section class="contact-form">
-        <form action="none" method="POST">
-        <fieldset class="Name">
-          <legend>Contact Information</legend>
-          <label for="customer-name">Name</label>
-          <input type="text" id="costumer-name" placeholder="Zohran Mamdani"/>
-          <label for="customer-email">E-mail address</label>
-          <input type="email" id="customer-email" placeholder="sample@sample.com"/>
-          <label for="Subject">Subject</label>
-          <input type="text" id="Subject" placeholder="Subject of your query">
-          <label for="customer-message">Message</label>
-          <input type="text" id="customer-message" placeholder="Message for us."/>
-        </fieldset>
-        <input type="submit" value="REGISTER">
-    </section>
+        <form class="contact-form">
+            <div class= "c-name">
+                <label for="customer-name">Name</label>
+                <input type="text" id="costumer-name" placeholder="Zohran Mamdani"/>
+            </div>
+            <div class="c-name">
+                <label for="customer-email">E-mail</label>
+                <input type="email" id="customer-email" placeholder="sample@sample.com"/>
+            </div>
+            <div class="c-subject">
+                <label for="Subject">Subject</label>
+                <input type="text" id="Subject" placeholder="Subject of your query">
+            </div>
+            <div class="c-message">
+                <label for="customer-message">Message</label>
+                <input type="text" id="customer-message" placeholder="Message for us."/>
+            </div>
+            <button type="button" class="submit-button">Submit</button>
+        </form>
+    </main>
+    
+    <footer id="footerSection">&copy 2026 | <a href="#blank">Instagram</a> | <a href="/ContactUS.html">Contact Us</a></footer>
 </body>
 </html>

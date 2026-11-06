@@ -1,70 +1,162 @@
 .nav-bar{
+    margin-left: 100px;
+    margin-right: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: chocolate;
+    background-color: #20409A;
     color: bisque;
+    border: 0.5px solid #20409A;
+    border-radius: 10px;
+    color: #F4F9E9;
 }
 
 #nav-elements{
-    display: flex;
-    justify-content: flex-end;
+    display: inline-flex;
+    align-self: flex-start;
+    flex-direction: row;
     list-style: none;
     gap: 2rem;
+    padding-bottom: 20px;
+    }
+
+#nav-elements a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #F4F9E9;
 }
 
-.nav-elements a:hover{
-    color: purple;
+#nav-elements a:hover{
+    color: red;
 }
 
 .co-logo img{
-    width:50%;
+    width:25%;
     height: auto;
+    border-radius: 50px;
+    border: 1 px solid bisque;
+}
+
+.submit a:hover{
+    border-color: darkgreen;    
 }
 
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
-    border: 1px solid black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 1px solid #20409A;
     border-radius: 10px;
     margin: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #20409A;
+}
+
+.about-us{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 1px solid #20409A;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #20409A;
 }
 
 .co-name{
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
-    justify-content: flex-start;
+
 }
 
 .about-us-button{
     border-radius: 10px;
-    background-color: black;
+    background-color: #20409A;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 10px;
     padding-left: 10px;
-
+    width:fit-content;
 }
+
 .about-us-button a{
-    color: antiquewhite;
-    background-color: black;
+    color: #F4F9E9;
+    background-color: #20409A;
     text-decoration: none;
 }
 
 .contact-form{
-    width: 80vw;
-    height: 70vw;
-    margin: 50px auto;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 1px solid #20409A;
     border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #20409A;
+    flex-direction: column;
+    gap: 5px;
+}
+
+textarea {
+  resize: none;
+  height: 75px;
 }
 
 #customer-message{
     resize: none;
     height: 75px;
     width: 500px;
+}
+
+.submit-button{
+    border-radius: 10px;
+    background-color: #20409A;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width:fit-content;
+    color: #F4F9E9;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid #20409A;
+    color: #20409A;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    justify-content:right;
+}
+
+.offered-services{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+    width:fit-content;
+    gap: 10px;
+    justify-items: center;
+}
+
+label{
+    display: block;
 }
