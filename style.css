@@ -1,0 +1,70 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: chocolate;
+    color: bisque;
+}
+
+#nav-elements{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-elements a:hover{
+    color: purple;
+}
+
+.co-logo img{
+    width:50%;
+    height: auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.co-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.about-us-button{
+    border-radius: 10px;
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+.about-us-button a{
+    color: antiquewhite;
+    background-color: black;
+    text-decoration: none;
+}
+
+.contact-form{
+    width: 80vw;
+    height: 70vw;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+#customer-message{
+    resize: none;
+    height: 75px;
+    width: 500px;
+}
