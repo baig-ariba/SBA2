@@ -1,5 +1,7 @@
 # SBA Lab 2 readme
 
+## Site is live at https://baig-ariba.github.io/SBA2/
+
 ### Description
 The project displays the webpage of a company named accessibilty design co.. The webpage tries to reach the accessibilty grading of AA by using accessibility rules and regulations.
 
